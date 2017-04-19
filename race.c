@@ -26,10 +26,7 @@ int main(int argc, char* argv[]) {
     // look for file
     printf("attempting to read file: '%s'...", filename);
     fflush(stdout);
-    while(1) {
-        fp = fopen(filename, "r");
-        if(fp!=NULL) break;
-    }
+    while(fp==NULL) fp = fopen(filename, "r");
     printf("\n");
 
     // success
@@ -43,3 +40,4 @@ int main(int argc, char* argv[]) {
     free(text);
     return(0);
 }
+

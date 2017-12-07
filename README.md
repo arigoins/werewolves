@@ -1,6 +1,9 @@
 # Werewolves
 ## CS 544/444: CyberSecurity, University of New Mexico, Spring 2017, Dr. Jedidiah Crandall
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/arigoins/werewolves/blob/master/LICENSE.md)
+
+
 #### Group 6: Bentley Laaksonen, Jenniffer Estrada, Banafsheh Khosravi Nia, Audarius Goins, Joshua Donckels
 
 #### Game Description:
